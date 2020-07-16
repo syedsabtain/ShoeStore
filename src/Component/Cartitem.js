@@ -71,24 +71,13 @@ const Cartitem = () => {
 
                 </div>
                 <footer
-                    style={{
-                    backgroundColor: 'rgba(255, 255, 255, 0.644)',
-                    borderRadius: '10px'
-                }}
-                    className="my-5 pt-5  text-center text-small">
-                    <p className="mt-2 ">&copy; 2020-2030 @created by Syed Sabtain</p>
-                    <ul className="list-inline ">
-                        <li className="list-inline-item">
-                            <a href="#">Privacy</a>
-                        </li>
-                        <li className="list-inline-item">
-                            <a href="#">Terms</a>
-                        </li>
-                        <li className="list-inline-item">
-                            <a href="#">Support</a>
-                        </li>
-                    </ul>
-                </footer>
+                style={{
+                backgroundColor: 'rgba(255, 255, 255, 0.644)',
+                borderRadius: '10px'
+            }}
+        className="my-5 pt-5 mb-2 text-center text-small">
+                <p className="mb-1 pb-4">&copy; 2020-2030 @created by Syed Sabtain</p>
+            </footer>
 
             </div>
         </div>

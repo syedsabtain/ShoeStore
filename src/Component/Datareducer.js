@@ -4,10 +4,10 @@ const Datareducer = (state,action)=>
     {
         case 'ADD_ITEM':
             return [...state,{name:action.payload.name,price:action.payload.price,id:action.payload.id}]
-        break;
+    
         case 'DELETE_ITEM':
             return (state.filter((val)=>val.id!==action.payload))
-        break;
+        
         default:
             break;
     }

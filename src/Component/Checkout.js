@@ -282,19 +282,8 @@ const Checkout = () => {
                 </div>
             </div>
 
-            <footer className="my-5 pt-5  text-center text-small">
-                <p className="mb-1">&copy; 2020-2030 @created by Syed Sabtain</p>
-                <ul className="list-inline">
-                    <li className="list-inline-item">
-                        <a>Privacy</a>
-                    </li>
-                    <li className="list-inline-item">
-                        <a >Terms</a>
-                    </li>
-                    <li className="list-inline-item">
-                        <a >Support</a>
-                    </li>
-                </ul>
+            <footer className="my-5 pt-5 mb-2 text-center text-small">
+                <p className="mb-1 pb-4">&copy; 2020-2030 @created by Syed Sabtain</p>
             </footer>
         </div>
 
