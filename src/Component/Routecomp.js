@@ -19,6 +19,7 @@ const Routecomp = () => {
                     <Route path='shoes' element={< Listshoe > </Listshoe>}></Route>
                     <Route path='cart' element={< Cartitem > </Cartitem>}></Route>
                     <Route path='checkout' element={<Checkout></Checkout>}></Route>
+                    <Route path='*' element={<Wronglinkink></Wronglinkink>}></Route>
                 </Routes>
 
             </div>
@@ -26,6 +27,24 @@ const Routecomp = () => {
 
         </Router>
     )
+}
+
+const Wronglinkink=()=>{
+
+    return(
+        <div className='container text-center  '>
+            <div className='row'>
+                <div className='col-md-12'>
+                    <div className=' bg-wrong shadow-lg text-center'>
+                        <h1>404 PAGE NOT FOUND</h1>
+                        <h2>CONTACT ADMINSTRATOR</h2>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    )
+
 }
 
 

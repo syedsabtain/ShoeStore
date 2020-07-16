@@ -5,7 +5,7 @@ const Checkout = () => {
 
     const {mdata} = useContext(gdata)
     const calculatetotal = () => {
-        let total = 0
+        let total = 0;
         for (let index = 0; index < mdata.length; index++) {
             total += mdata[index].price;
 
@@ -31,11 +31,7 @@ const Checkout = () => {
                                     key={key}
                                     className="list-group-item d-flex justify-content-between lh-condensed">
                                     <div>
-                                        <h6 className="my-0">{product
-                                                .name
-                                                .replace(/-/g, ' ')
-                                                .toUpperCase()}</h6>
-                                        {/* <small className="text-muted">Brief description</small> */}
+                                        <h6 className="my-0">{product.name.replace(/-/g, ' ').toUpperCase()}</h6>
                                     </div>
                                     <span className="text-muted">${product.price}</span>
                                 </li>
