@@ -1,0 +1,26 @@
+.bg-ad{
+  box-sizing: border-box;
+  background-image: url('./images/bg-adidas.jpg');
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav-logo{
+
+  
+  height: 60px;
+  width: 70px;
+  box-sizing: border-box;
+  margin-top: 7px;
+  background-image: url('../src/images/adidas-logo.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* margin-top: 0; */
+  /* border: 1px solid black; */
+  
+  float: left;
+}
+.mr-15{
+  margin-right: 145px;
+}
