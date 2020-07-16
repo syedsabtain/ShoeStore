@@ -8,9 +8,7 @@ import Datareducer from './Component/Datareducer';
 function App() {
     const initialdata = [
         {
-            name: 'first',
-            price: 1233,
-            id: 0
+            
         }
     ]
 
