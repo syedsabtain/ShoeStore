@@ -1,26 +1,46 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useReducer} from 'react';
 import './App.css';
+import './images/bootstrap.min.css'
+import {gdata} from './Component/Databasee'
+import Routecomp from './Component/Routecomp'
+import Datareducer from './Component/Datareducer';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const initialdata = [
+        {
+            name: 'first',
+            price: 1233,
+            id: 0
+        }
+    ]
+
+    const [state,
+        dispatch] = useReducer(Datareducer, initialdata);
+
+    const handleadd = (obj) => {
+        dispatch({
+            type: 'ADD_ITEM',
+            payload: {
+                name: obj.name,
+                price: obj.price,
+                id: obj.id
+            }
+        })
+    }
+
+    const handledelete = (obj) => {
+        dispatch({type: 'DELETE_ITEM', payload: obj})
+    }
+    return (
+        <gdata.Provider
+            value={{
+            mdata: state,
+            additem: handleadd,
+            deleteitem: handledelete
+        }}>
+            <Routecomp></Routecomp>
+        </gdata.Provider>
+    );
 }
 
-export default App;
+export default App
