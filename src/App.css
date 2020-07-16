@@ -107,10 +107,8 @@ bg-white{
   font-variant-caps: all-petite-caps;
   padding-top: 11px;  
 }
-.bg-wrong{
+.bg-wronglink{
   background-color: rgba(14, 13, 13, 0.247);
-  width: 400px;
-  height: 80px;
   margin:0 auto;
   font-weight: bolder;
   color: white;

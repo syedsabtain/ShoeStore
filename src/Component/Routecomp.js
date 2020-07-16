@@ -35,7 +35,7 @@ const Wronglinkink=()=>{
         <div className='container text-center  '>
             <div className='row'>
                 <div className='col-md-12'>
-                    <div className=' bg-wrong shadow-lg text-center'>
+                    <div className=' bg-wronglink shadow-lg text-center'>
                         <h1>404 PAGE NOT FOUND</h1>
                         <h2>CONTACT ADMINSTRATOR</h2>
                     </div>
