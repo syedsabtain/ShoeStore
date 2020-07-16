@@ -15,10 +15,10 @@ const Routecomp = () => {
                 <Header></Header>
 
                 <Routes>
-                    <Route path='/' element={<Homm></Homm>}></Route>
-                    <Route path='shoes' element={< Listshoe > </Listshoe>}></Route>
-                    <Route path='cart' element={< Cartitem > </Cartitem>}></Route>
-                    <Route path='checkout' element={<Checkout></Checkout>}></Route>
+                    <Route exact path='/' element={<Homm></Homm>}></Route>
+                    <Route path='/shoes' element={< Listshoe > </Listshoe>}></Route>
+                    <Route path='/cart' element={< Cartitem > </Cartitem>}></Route>
+                    <Route path='/checkout' element={<Checkout></Checkout>}></Route>
                     <Route path='*' element={<Wronglinkink></Wronglinkink>}></Route>
                 </Routes>
 

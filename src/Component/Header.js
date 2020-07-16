@@ -17,11 +17,11 @@ const Header = () => {
                                 </Link>
                             </li>
                             <li className="nav-item ">
-                                <Link className="nav-link navv size-nav shadow-sm" to='shoes'>Shoes</Link>
+                                <Link className="nav-link navv size-nav shadow-sm" to='/shoes'>Shoes</Link>
                             </li>
 
                             <li className="nav-item  ">
-                                <Link className="nav-link navv  size-nav shadow-sm" to='cart'>Cart</Link>
+                                <Link className="nav-link navv  size-nav shadow-sm" to='/cart'>Cart</Link>
                             </li>
 
                         </ul>
