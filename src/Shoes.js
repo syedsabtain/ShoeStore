@@ -18,49 +18,7 @@ import adidas17 from './images/ultraboost-summer.rdy-shoes.jpg'
 import adidas18 from './images/x_plr-shoes.jpg'
 import adidas19 from './images/predator-mutator-20-plus-firm-ground-cleats.jpg'
 
-const imgshoe = [
-    adidas1,
-    adidas2,
-    adidas3,
-    adidas4,
-    adidas5,
-    adidas6,
-    adidas7,
-    adidas8,
-    adidas9,
-    adidas10,
-    adidas11,
-    adidas12,
-    adidas13,
-    adidas14,
-    adidas15,
-    adidas16,
-    adidas17,
-    adidas18,
-    adidas19
-]
 
-const detailshoes = [
-    'adidas-4d-run-1.0-shoes',
-    'busenitz-vulc-2.0-shoes',
-    'climacool-vento-shoes',
-    'continental-80-shoes',
-    'niteball-shoes',
-    'nizza-x-disney-sport-goofy-shoes',
-    'nmd_r1-shoes',
-    'nmd_r1-v2-shoes',
-    'primeblue-ultraboost-20-shoes',
-    'questar-flow-shoes',
-    'stan-smith-shoes',
-    'stan-smith-shoes',
-    'supernova-shoes',
-    'superstar-shoes',
-    'ultraboost-dna-tokyo-shoes',
-    'ultraboost-dna-x-disney-shoes',
-    'ultraboost-summer.rdy-shoes',
-    'x_plr-shoes',
-    'predator-mutator-20-plus-firm-ground-cleats'
-]
 
 const shoes = {
 
@@ -119,7 +77,7 @@ const shoes = {
         img: adidas11,
         price:780
     },
-    "stan-smith-shoes": {
+    "stan-smith-shoes2": {
         name: 'stan-smith-shoes',
         img: adidas12,
         price:980

@@ -18,7 +18,7 @@ const Listshoe = () => {
 
     }
     const relement = (id) => {
-        if (lab.id == id) {
+        if (lab.id === id) {
             return (
                 <span>
                     <Link to='../cart' className='btn btn-outline-dark ml-3'>View in cart</Link><br/>
@@ -78,13 +78,13 @@ const Listshoe = () => {
                 <p className="mt-2 ">&copy; 2020-2030 @created by Syed Sabtain</p>
                 <ul className="list-inline ">
                     <li className="list-inline-item">
-                        <a href="#">Privacy</a>
+                        <a >Privacy</a>
                     </li>
                     <li className="list-inline-item">
-                        <a href="#">Terms</a>
+                        <a>Terms</a>
                     </li>
                     <li className="list-inline-item">
-                        <a href="#">Support</a>
+                        <a >Support</a>
                     </li>
                 </ul>
             </footer>
